@@ -1,0 +1,9 @@
+git config --global user.email "optixlab@gmail.com"
+git config --global user.name "optix"
+git remote add origin https://github.com/optixlab/nitrousPython.git
+git init
+git add *.py
+git add README.md 
+git commit -m "init"
+#git remote rm origin
+git push -u origin master
